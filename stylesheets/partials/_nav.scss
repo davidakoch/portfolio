@@ -1,8 +1,10 @@
 ul.nav {
 	list-style: none; 
+	display: block; 
 }
 
 li {
 	display: inline-block;
 	float: right; 
+	padding: 10px; 
 }

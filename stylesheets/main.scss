@@ -1,1 +1,18 @@
 @import 'partials/nav';
+@import 'partials/media';
+
+.socialIcons {
+	display: inline; 
+}
+
+.mainMenu {
+	display: inline; 
+	color: grey;
+	font-size: 25px; 
+}
+
+.hamburger {
+	cursor: pointer;
+	float: right; 
+}
+
