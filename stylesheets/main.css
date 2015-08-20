@@ -1,31 +1,27 @@
-ul.nav {
-  list-style: none;
-  display: block; }
+.nav-wrapper {
+  border-bottom: 1px solid black;
+  width: 100%;
+  overflow: auto;
+  background-color: #ffffff; }
 
-li {
-  display: inline-block;
-  float: right;
-  padding: 10px; }
+.navMenu {
+  display: inline-block; }
+  .navMenu li {
+    display: block;
+    float: left;
+    list-style: none;
+    font-size: 25px; }
+    .navMenu li a {
+      display: block;
+      padding: 20px;
+      text-decoration: none; }
 
-ul.socialIcons {
-  display: inline; }
-
-ul.mainMenu {
-  display: none;
-  color: grey;
-  font-size: 25px; }
-  @media all and (min-width: 760px) {
-    ul.mainMenu {
-      display: inline; } }
-
-.hamburger {
-  cursor: pointer;
+.socialIcons {
   float: right; }
-
-.is-mobile {
-  display: block; }
-  @media all and (min-width: 760px) {
-    .is-mobile {
-      display: none; } }
+  .socialIcons li {
+    list-style: none;
+    display: inline-block; }
+    .socialIcons li a {
+      padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */

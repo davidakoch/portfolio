@@ -1,11 +1,48 @@
-ul.nav {
-	list-style: none; 
-	display: block; 
+.nav-wrapper {
+	border-bottom: 1px solid black; 
+	width: 100%;
+	overflow: auto; 
+	background-color: #ffffff;
+
 }
 
-li {
+.navMenu {
 	display: inline-block;
-	float: right; 
-	padding: 10px; 
+
+	li {
+		display: block;
+		float: left;
+		list-style: none; 
+		font-size: 25px; 
+
+		a {
+			display: block;
+			padding: 20px;
+			text-decoration: none; 
+
+		}
+
+	}
+
 }
+
+.socialIcons {
+	float: right;
+
+	li {
+	
+		list-style: none;
+		display: inline-block;
+
+		a {
+			padding: 20px;
+		}
+
+	}
+}
+
+
+
+
+
 

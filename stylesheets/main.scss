@@ -6,42 +6,11 @@
 
 
 
-ul.socialIcons {
-	display: inline; 
-}
-
-
-
-ul.mainMenu {
-	display: none; 
-	color: grey;
-	font-size: 25px; 
-
-
-
-	@include breakpoint(med){
-		display: inline; 
-	}
-}
 
 
 
 
-.hamburger {
-	cursor: pointer;
-	float: right; 
-}
 
-
-
-.is-mobile {
-	display: block;
-
-	@include breakpoint(med){
-		display: none; 
-	}
-
-}
 			
 
 
