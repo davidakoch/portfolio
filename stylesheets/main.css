@@ -24,4 +24,22 @@
     .socialIcons li a {
       padding: 20px; }
 
+.page-home {
+  background-color: #000000;
+  color: #ffd700;
+  height: 45em; }
+
+.page-about {
+  background-color: #8b0000;
+  height: 45em; }
+
+.page-projects {
+  background-color: #e6be8a;
+  height: 45em; }
+
+.page-contact {
+  background-color: #000000;
+  color: #ffd700;
+  height: 45em; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+$page-height: 45em;
+
+.page-home {
+	background-color: #000000;
+	color: #ffd700;
+	height: $page-height;
+}
+
+.page-about {
+	background-color: #8b0000;
+	height: $page-height;
+}
+
+.page-projects {
+	background-color: #e6be8a; 
+	height: $page-height;
+
+}
+
+.page-contact {
+	background-color: #000000; 
+	color: #ffd700;
+	height: $page-height;
+}
