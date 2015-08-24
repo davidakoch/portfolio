@@ -2,19 +2,18 @@
   border-bottom: 1px solid black;
   width: 100%;
   overflow: auto;
-  background-color: #ffffff; }
+  background-color: #fffff5;
+  top: 0; }
 
-.navMenu {
-  display: inline-block; }
-  .navMenu li {
+.navMenu li {
+  display: block;
+  float: left;
+  list-style: none;
+  font-size: 25px; }
+  .navMenu li a {
     display: block;
-    float: left;
-    list-style: none;
-    font-size: 25px; }
-    .navMenu li a {
-      display: block;
-      padding: 20px;
-      text-decoration: none; }
+    padding: 20px;
+    text-decoration: none; }
 
 .socialIcons {
   float: right; }
@@ -25,21 +24,58 @@
       padding: 20px; }
 
 .page-home {
-  background-color: #000000;
+  background-color: #3498db;
   color: #ffd700;
-  height: 45em; }
+  height: 45em;
+  top: 0;
+  overflow: auto; }
 
 .page-about {
-  background-color: #8b0000;
-  height: 45em; }
+  background-color: #2072a7;
+  height: 45em;
+  top: 0; }
 
 .page-projects {
-  background-color: #e6be8a;
-  height: 45em; }
+  background-color: #2980b9;
+  height: 45em;
+  top: 0; }
 
 .page-contact {
-  background-color: #000000;
+  background-color: #3498db;
   color: #ffd700;
-  height: 45em; }
+  height: 45em;
+  top: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 1em/18px Arial, sans-serif; }
+
+h1, h2, h3 {
+  color: white; }
+
+p {
+  color: rgba(0, 0, 0, 0.3); }
+
+a {
+  color: purple; }
+  a:visited {
+    color: purple; }
+  a:hover {
+    color: green; }
+
+.is-mobile {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 35px; }
+  @media all and (min-width: 760px) {
+    .is-mobile {
+      display: none; } }
+
+.navMenu {
+  display: none; }
+  @media all and (min-width: 760px) {
+    .navMenu {
+      display: inline-block; } }
 
 /*# sourceMappingURL=main.css.map */

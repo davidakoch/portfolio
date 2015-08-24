@@ -1,15 +1,36 @@
 $(document).on('ready', function(){
 
 	$('.js-menu').on('click', function(){
-		$('.mainMenu').slideToggle();
+		$('.navMenu').slideToggle();
 
 	});
+
+	$(window).on('resize', function(){
+		var w = $(window).width(); 
+		if (w > 760 && $('.navMenu').is(':hidden')){
+			$('.navMenu').removeAttr('style'); 
+		}
+	}); 
 
 
 	//this scrolls slowly to a section of the page
 	$('.navMenu a').on('click', function(){
 		var href = $(this).attr('href');
 		$.scrollTo(href, 800);
+	});
+
+
+	//this fixes the navigation bar
+	$(window).on('scroll', function(){
+		var topWin = $(window).scrollTop();
+		//console.log(topWin);
+		if(topWin >= 300 && $('nav-wrapper').css('position') !== 'fixed'){
+			$('.nav-wrapper').hide().fadeIn().css('position', 'fixed')
+		}	else if (topWin < 300){
+				$('.nav-wrapper').css('position', 'static');
+			
+		}
+
 	});
 
 

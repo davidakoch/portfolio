@@ -1,24 +1,32 @@
 $page-height: 45em;
+$top-height: 0;
 
 .page-home {
-	background-color: #000000;
+	background-color: #3498db;
 	color: #ffd700;
 	height: $page-height;
+	top: $top-height;
+	overflow: auto; 
+	
 }
 
 .page-about {
-	background-color: #8b0000;
+	background-color: #2072a7;
 	height: $page-height;
+	top: $top-height;
+	
 }
 
 .page-projects {
-	background-color: #e6be8a; 
+	background-color: #2980b9; 
 	height: $page-height;
+	top: $top-height;
 
 }
 
 .page-contact {
-	background-color: #000000; 
+	background-color: #3498db; 
 	color: #ffd700;
 	height: $page-height;
+	top: $top-height;
 }
