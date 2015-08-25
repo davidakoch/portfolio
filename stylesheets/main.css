@@ -62,7 +62,10 @@ a {
   a:visited {
     color: purple; }
   a:hover {
-    color: green; }
+    color: #421C52; }
+  a:active {
+    color: blue;
+    text-decoration: underline; }
 
 .is-mobile {
   display: inline-block;

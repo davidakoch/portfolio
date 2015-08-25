@@ -26,10 +26,12 @@ a {
 	}
 
 	&:hover {
-		color: green;
+		color:  #421C52;
 	}
 
 	&:active {
+		color: blue;
+		text-decoration: underline;
 
 	}
 
