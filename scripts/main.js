@@ -26,13 +26,19 @@ $(document).on('ready', function(){
 	$(window).on('scroll', function(){
 		var topWin = $(window).scrollTop();
 		//console.log(topWin);
-		if(topWin >= 300 && $('.nav-wrapper').css('position') !== 'fixed'){
+		if(topWin >= 300 && $('nav-wrapper').css('position') !== 'fixed'){
 			$('.nav-wrapper').hide().fadeIn().css('position', 'fixed')
 		}	else if (topWin < 300){
 				$('.nav-wrapper').css('position', 'static');
 			
 		}
 
+	});
+
+	//fixes opacity on the about me page
+
+	$('.js_about_me_hover').mouseenter(function(){
+		alert("i've been hovered");
 	});
 
 
