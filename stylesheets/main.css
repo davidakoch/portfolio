@@ -27,32 +27,30 @@
 .page-home {
   background-color: #3498db;
   color: #ffd700;
-  height: 45em;
+  height: 40em;
   padding-top: 10px;
   overflow: auto; }
 
 .page-about {
   background-color: #2072a7;
-  height: 45em;
+  height: 40em;
   padding-top: 10px; }
 
 .page-projects {
   background-color: #2980b9;
-  height: 45em;
+  height: 40em;
   padding-top: 10px; }
 
 .page-contact {
   background-color: #3498db;
   color: #ffd700;
-  height: 45em;
+  height: 40em;
   padding-top: 10px; }
 
 section {
   position: relative;
-  padding: 20em 20%;
   background: #2980b9;
-  color: #fff;
-  text-align: center; }
+  color: #fff; }
   section:before, section:after {
     position: absolute;
     content: '';
@@ -60,7 +58,7 @@ section {
 
 .ss-style-doublediagonal {
   z-index: 1;
-  padding-top: 6em;
+  padding-top: 13em;
   background: #2072a7; }
   .ss-style-doublediagonal:before, .ss-style-doublediagonal:after {
     top: 0;
@@ -78,7 +76,7 @@ section {
     transform-origin: 3% 0; }
 
 .ss-style-halfcircle {
-  padding-top: 6em; }
+  padding-top: 7em; }
   .ss-style-halfcircle:before {
     top: -50px; }
   .ss-style-halfcircle:before, .ss-style-halfcircle:after {
@@ -92,7 +90,7 @@ section {
     transform: translateX(-50%); }
 
 .ss-style-triangles {
-  padding-top: 6em; }
+  padding-top: 7em; }
   .ss-style-triangles:before {
     top: -50px;
     background: #2980b9; }
@@ -135,5 +133,16 @@ a {
   @media all and (min-width: 760px) {
     .navMenu {
       display: inline-block; } }
+
+.page-home-header {
+  float: left;
+  margin-top: 20em;
+  margin-left: 20px; }
+
+#page-home-header-bottom {
+  margin-left: 35px;
+  height: 1px;
+  width: 30em;
+  border-top: 2px solid white; }
 
 /*# sourceMappingURL=main.css.map */
