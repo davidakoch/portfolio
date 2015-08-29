@@ -74,6 +74,16 @@ section {
     background: #116094;
     transform: rotate(-3deg);
     transform-origin: 3% 0; }
+  .ss-style-doublediagonal h1 {
+    margin-left: 20px; }
+  .ss-style-doublediagonal img {
+    height: 25em;
+    margin-left: 25px;
+    margin-right: 15px;
+    float: left; }
+  .ss-style-doublediagonal p {
+    display: inline;
+    font-size: 43px; }
 
 .ss-style-halfcircle {
   padding-top: 7em; }
@@ -104,7 +114,7 @@ section {
 body {
   margin: 0;
   padding: 0;
-  font: normal 1em/18px Arial, sans-serif; }
+  font: Arial, sans-serif; }
 
 h1, h2, h3 {
   color: white; }
