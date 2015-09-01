@@ -1,6 +1,6 @@
 .slideshow {
-  width: 80%;
-  margin: 0 auto; }
+  width: 50px;
+  z-index: 2; }
 
 .nav-wrapper {
   border-bottom: 1px solid black;
