@@ -28,18 +28,43 @@ $(document).on('ready', function(){
 		//console.log(topWin);
 		if(topWin >= 300 && $('nav-wrapper').css('position') !== 'fixed'){
 			$('.nav-wrapper').hide().fadeIn().css('position', 'fixed')
-		}	else if (topWin < 300){
-				$('.nav-wrapper').css('position', 'static');
-			
+			}	else if (topWin < 300){
+					$('.nav-wrapper').css('position', 'static');
+				
 		}
 
 	});
 
 	//fixes opacity on the about me page
 
+	var animateHover = function(){
+		$('.js_about_me_hover').show().animate({
+				opacity: 1, 
+				color: "rgba(14,14,14,14)",
+			});
+		};
+
+
 	$('.js_about_me_hover').mouseenter(function(){
-		alert("i've been hovered");
+		animateHover();
 	});
+
+
+	var animateLeave = function(){
+		$('.js_about_me_hover').show().animate({
+					opacity: 0.2,
+					},1000);
+				};
+
+
+	
+	$('.js_about_me_hover').mouseleave(function(){
+				animateLeave();
+			});
+
+
+
+
 
 
 

@@ -72,7 +72,8 @@ section {
 	}
 
 	.js_about_me_hover {
-		opacity: .20;
+		width: 80%;
+		margin: 0 auto; 
 
 
 
@@ -81,7 +82,7 @@ section {
 		}
 
 		img {
-			height: 25em;
+			height: 21em;
 			margin-left: 25px;
 			margin-right: 15px;  
 			float: left;
@@ -90,7 +91,7 @@ section {
 
 		p {
 			display: inline;
-			font-size: 43px; 
+			font-size: 40px; 
 			color: black;
 		}
 	}	
