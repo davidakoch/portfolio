@@ -45,21 +45,20 @@ $(document).on('ready', function(){
 		};
 
 
-	$('.js_about_me_hover').mouseenter(function(){
+	/*$('.js_about_me_hover').mouseenter(function(){
 		animateHover();
-	});
+	});*/
 
 
 	var animateLeave = function(){
 		$('.js_about_me_hover').show().animate({
-					opacity: 0.2,
 					},1000);
 				};
 
 
 	
 	$('.js_about_me_hover').mouseleave(function(){
-				animateLeave();
+	 			animateLeave();
 			});
 
 

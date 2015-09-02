@@ -50,6 +50,21 @@ a {
 	}
 }
 
+.js_about_me_hover{
+	opacity: .2;
+	
+	&:hover{
+		opacity: 1;
+		transition: 3s;
+		
+		p {
+			color: white;
+		
+		}
+	}
+
+}
+
 .navMenu {
 	display: none;
 

@@ -1,6 +1,8 @@
 .slideshow {
-  width: 50px;
-  z-index: 2; }
+  border-radius: 3px; }
+  .slideshow img {
+    width: 65%;
+    margin-left: 235px; }
 
 .nav-wrapper {
   border-bottom: 1px solid black;
@@ -145,6 +147,14 @@ a {
   @media all and (min-width: 760px) {
     .is-mobile {
       display: none; } }
+
+.js_about_me_hover {
+  opacity: .2; }
+  .js_about_me_hover:hover {
+    opacity: 1;
+    transition: 3s; }
+    .js_about_me_hover:hover p {
+      color: white; }
 
 .navMenu {
   display: none; }
