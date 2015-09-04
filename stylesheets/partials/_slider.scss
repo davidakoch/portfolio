@@ -1,10 +1,15 @@
 .slideshow {
-	border-radius: 3px; 
+	
 
 	
 	img {
+		border: 4px solid white; 
 		width: 65%;
 		margin-left: 235px; 
+		border-radius: 4px; 
+		height: 28em; 
+		position: absolute;
+		z-index: 2;
 
 	}
 }
