@@ -138,13 +138,7 @@ section {
   width: 160px;
   height: 160px;
   bottom: 0;
-  right: 0;
-  /*&:after {
-  	border-bottom: solid 20px #5b7093;
-  	border-left: solid 20px #5b7093;
-  	border-right: solid 20px transparent;
-  	border-top: solid 20px transparent;
-  }*/ }
+  right: 0; }
   .folded_corner:before, .folded_corner:after {
     display: block;
     position: absolute;
@@ -153,12 +147,16 @@ section {
     border-top: solid 80px  #2072a7;
     border-right: solid 80px #fff;
     border-left: solid 80px #2072a7;
-    border-bottom: solid 80px #fff; }
+    border-bottom: solid 80px #fff;
+    box-shadow: -10px -10px 54px rgba(0, 0, 0, 0.5); }
 
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif; }
+
+.container {
+  overflow: hidden; }
 
 h1, h2, h3 {
   color: white; }

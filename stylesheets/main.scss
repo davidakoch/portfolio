@@ -10,6 +10,10 @@ body {
 	font-family: Arial, sans-serif; 
 }
 
+.container {
+	overflow: hidden;
+}
+
 h1, h2, h3 {
 	color: white;
 }
@@ -36,6 +40,8 @@ a {
 
 
 }
+
+
 
 .is-mobile {
 	display: inline-block;

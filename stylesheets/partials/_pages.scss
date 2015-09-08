@@ -52,6 +52,8 @@ section {
 	background: #2072a7;
 
 
+
+
 	&:before,
 	&:after {
 		top: 0;
@@ -70,6 +72,8 @@ section {
 		transform: rotate(-3deg);
 		transform-origin: 3% 0;
 	}
+
+
 }
 
 .js_about_me_hover {
@@ -173,18 +177,14 @@ section {
   	    border-right: solid 80px #fff;
   		border-left: solid 80px #2072a7;
   		border-bottom: solid 80px #fff;
+  		box-shadow: -10px -10px 54px rgba(0,0,0,.5)
 	}
-
-	/*&:after {
-		border-bottom: solid 20px #5b7093;
-		border-left: solid 20px #5b7093;
-		border-right: solid 20px transparent;
-		border-top: solid 20px transparent;
-	}*/
-
-
-
 }
+
+
+
+
+
 	
 
 
