@@ -1,4 +1,4 @@
-@import 'partials/slider';
+
 @import 'partials/nav';
 @import 'partials/media';
 @import 'partials/pages';
@@ -81,6 +81,11 @@ a {
 	border-top: 2px solid white;
 	
 
+}
+
+.portfolio-grid-col {
+	float: left;
+	width: 49%;
 }
 
 

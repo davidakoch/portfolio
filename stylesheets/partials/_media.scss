@@ -3,15 +3,21 @@
 		@media all and (min-width: 420px){
 			@content;
 		}
-}	@else if $breakpoint == med {
-		@media all and (min-width: 760px){
-			@content;
+	}	@else if $breakpoint == med {
+				@media all and (min-width: 760px){
+					@content;
 		}
-}	@else if $breakpoint == large {
-		@media all and (min-width: 850px){
-			@content;
+	}	@else if $breakpoint == large {
+				@media all and (min-width: 850px){
+					@content;
 		}
+	}
+
+
 }
 
-
+.portfolio_grid_col {
+	float: left;
+	width: 49%;
+	border: solid 2px red;
 }
