@@ -17,8 +17,14 @@
 }
 
 .portfolio_grid {
-	margin: 0px 30px auto;
 
+	display: none;
+
+	@include breakpoint(med){
+		display: block;
+		margin: 0px 30px auto;
+
+	}
 
 }
 
@@ -36,9 +42,9 @@
 	background-color: wheat;
 
 	img {
-		max-width: 60%;
-		height: 250px;
-		margin-top: 115px;
-		margin-left: 165px; 
+		width: 80%;
+		height: 375px;
+		margin-top: 35px;
+		margin-left: 75px; 
 	}
 }

@@ -25,7 +25,11 @@
       padding: 20px; }
 
 .portfolio_grid {
-  margin: 0px 30px auto; }
+  display: none; }
+  @media all and (min-width: 760px) {
+    .portfolio_grid {
+      display: block;
+      margin: 0px 30px auto; } }
 
 .portfolio_grid_row {
   overflow: auto;
@@ -38,10 +42,10 @@
   border: solid 4px white;
   background-color: wheat; }
   .portfolio_grid_col img {
-    max-width: 60%;
-    height: 250px;
-    margin-top: 115px;
-    margin-left: 165px; }
+    width: 80%;
+    height: 375px;
+    margin-top: 35px;
+    margin-left: 75px; }
 
 .page-home {
   background-color: #3498db;
