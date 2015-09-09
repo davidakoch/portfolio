@@ -154,6 +154,16 @@ section {
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg); }
 
+.page-contact-container {
+  margin: 30px 30px auto; }
+  .page-contact-container li {
+    display: block;
+    list-style: none; }
+    .page-contact-container li p {
+      color: white;
+      display: inline-block;
+      padding-left: 50px; }
+
 .folded_corner {
   position: absolute;
   background-color: #3498db;

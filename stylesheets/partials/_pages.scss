@@ -159,6 +159,22 @@ section {
 
 }
 
+.page-contact-container{
+	margin: 30px 30px auto;
+
+		li{
+			display: block;
+			list-style: none;
+		
+			p {
+				color: white;
+				display: inline-block;
+				padding-left: 50px; 
+			}
+		}
+	
+}
+
 .folded_corner {
 	position: absolute; 
 	background-color: #3498db;
