@@ -16,8 +16,29 @@
 
 }
 
+.portfolio_grid {
+	margin: 0px 30px auto;
+
+
+}
+
+
+.portfolio_grid_row {
+	overflow: auto;
+	width: 100%;
+}
+
 .portfolio_grid_col {
 	float: left;
 	width: 49%;
-	border: solid 2px red;
+	height: 450px;
+	border: solid 4px white;
+	background-color: wheat;
+
+	img {
+		max-width: 60%;
+		height: 250px;
+		margin-top: 115px;
+		margin-left: 165px; 
+	}
 }
