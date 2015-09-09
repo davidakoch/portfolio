@@ -3,7 +3,6 @@ $top-height: 10px;
 
 .page-home {
 	background-color: #3498db;
-	color: #ffd700;
 	height: $page-height;
 	padding-top: $top-height;
 	overflow: auto; 
@@ -96,9 +95,14 @@ section {
 
 	p {
 		display: inline;
-		font-size: 36px; 
+		font-size: 20px; 
 		color: black;
 		transition: all 3s;
+		
+		@include breakpoint(med){
+			font-size: 36px; 
+		}
+
 	}
 
 	&:hover{

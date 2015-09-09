@@ -13,9 +13,14 @@
 
 	li {
 		display: block;
-		float: left;
 		list-style: none; 
 		font-size: 25px; 
+
+		@include breakpoint(med){
+			float: left; 
+		}
+
+
 
 		a {
 			display: block;
@@ -24,12 +29,21 @@
 
 		}
 
+
+
 	}
 
 }
 
 .socialIcons {
+	display: none;
 	float: right;
+
+	@include breakpoint(med){
+		display: block;
+	}
+
+	
 
 	li {
 	

@@ -1,13 +1,13 @@
 
-@import 'partials/nav';
 @import 'partials/media';
+@import 'partials/nav';
 @import 'partials/pages';
 
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
 }
 
 .container {
@@ -69,8 +69,9 @@ a {
 
 .page-home-header {
 	float: left; 
-	margin-top: 20em; 
-	margin-left: 20px; 
+	margin-top: 14em; 
+	margin-left: 65px; 
+	font-size: 20px;
 	
 }
 
@@ -83,10 +84,16 @@ a {
 
 }
 
-.portfolio-grid-col {
-	float: left;
-	width: 49%;
+.page-about-header {
+	@extend .page-home-header;
+	margin-top: -105px;
 }
+
+#page-about-header-bottom {
+	@extend #page-home-header-bottom;
+}
+
+
 
 
 

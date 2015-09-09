@@ -1,3 +1,26 @@
+@media all and (min-width: 760px) {
+  .portfolio_grid {
+    display: block;
+    margin: 0px 30px auto; } }
+
+.portfolio_grid_row {
+  overflow: auto;
+  width: 100%; }
+
+.portfolio_grid_col {
+  border: solid 4px white;
+  background-color: wheat; }
+  @media all and (min-width: 760px) {
+    .portfolio_grid_col {
+      float: left;
+      width: 49%;
+      height: 450px; } }
+  .portfolio_grid_col img {
+    width: 80%;
+    height: 375px;
+    margin-top: 35px;
+    margin-left: 75px; }
+
 .nav-wrapper {
   border-bottom: 1px solid black;
   width: 100%;
@@ -8,48 +31,30 @@
 
 .navMenu li {
   display: block;
-  float: left;
   list-style: none;
   font-size: 25px; }
+  @media all and (min-width: 760px) {
+    .navMenu li {
+      float: left; } }
   .navMenu li a {
     display: block;
     padding: 20px;
     text-decoration: none; }
 
 .socialIcons {
+  display: none;
   float: right; }
+  @media all and (min-width: 760px) {
+    .socialIcons {
+      display: block; } }
   .socialIcons li {
     list-style: none;
     display: inline-block; }
     .socialIcons li a {
       padding: 20px; }
 
-.portfolio_grid {
-  display: none; }
-  @media all and (min-width: 760px) {
-    .portfolio_grid {
-      display: block;
-      margin: 0px 30px auto; } }
-
-.portfolio_grid_row {
-  overflow: auto;
-  width: 100%; }
-
-.portfolio_grid_col {
-  float: left;
-  width: 49%;
-  height: 450px;
-  border: solid 4px white;
-  background-color: wheat; }
-  .portfolio_grid_col img {
-    width: 80%;
-    height: 375px;
-    margin-top: 35px;
-    margin-left: 75px; }
-
 .page-home {
   background-color: #3498db;
-  color: #ffd700;
   height: 40em;
   padding-top: 10px;
   overflow: auto; }
@@ -112,9 +117,12 @@ section {
     float: left; }
   .js_about_me_hover p {
     display: inline;
-    font-size: 36px;
+    font-size: 20px;
     color: black;
     transition: all 3s; }
+    @media all and (min-width: 760px) {
+      .js_about_me_hover p {
+        font-size: 36px; } }
   .js_about_me_hover:hover {
     opacity: 1; }
     .js_about_me_hover:hover p {
@@ -167,7 +175,7 @@ section {
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; }
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
 
 .container {
   overflow: hidden; }
@@ -200,19 +208,19 @@ a {
     .navMenu {
       display: inline-block; } }
 
-.page-home-header {
+.page-home-header, .page-about-header {
   float: left;
-  margin-top: 20em;
-  margin-left: 20px; }
+  margin-top: 14em;
+  margin-left: 65px;
+  font-size: 20px; }
 
-#page-home-header-bottom {
+#page-home-header-bottom, #page-about-header-bottom {
   margin-left: 35px;
   height: 1px;
   width: 30em;
   border-top: 2px solid white; }
 
-.portfolio-grid-col {
-  float: left;
-  width: 49%; }
+.page-about-header {
+  margin-top: -105px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -18,7 +18,7 @@
 
 .portfolio_grid {
 
-	display: none;
+	//display: none;
 
 	@include breakpoint(med){
 		display: block;
@@ -34,12 +34,16 @@
 	width: 100%;
 }
 
+
 .portfolio_grid_col {
-	float: left;
-	width: 49%;
-	height: 450px;
 	border: solid 4px white;
 	background-color: wheat;
+	
+	@include breakpoint(med){
+		float: left;
+		width: 49%;
+		height: 450px;
+	}
 
 	img {
 		width: 80%;
