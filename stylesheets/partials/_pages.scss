@@ -1,5 +1,5 @@
 $page-height: 40em;
-$top-height: 10px;
+$top-height: 15px;
 
 .page-home {
 	background-color: #3498db;
@@ -9,7 +9,7 @@ $top-height: 10px;
 	
 }
 
-.page-about {
+#page-two {
 	background-color: #2072a7;
 	height: $page-height;
 	padding-top: $top-height;
@@ -47,7 +47,7 @@ section {
 
 .ss-style-doublediagonal {
 	z-index: 1;
-	padding-top: 13em;
+	padding-top: 7em;
 	background: #2072a7;
 
 
@@ -120,7 +120,7 @@ section {
 
 
 .ss-style-halfcircle {
-	padding-top: 7em;
+	padding-top: 10em;
 
 	&:before {
 		 top: -50px;
@@ -170,6 +170,7 @@ section {
 				color: white;
 				display: inline-block;
 				padding-left: 50px; 
+				font-size: 27px; 
 			}
 		}
 	

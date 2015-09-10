@@ -56,24 +56,24 @@
 .page-home {
   background-color: #3498db;
   height: 40em;
-  padding-top: 10px;
+  padding-top: 15px;
   overflow: auto; }
 
-.page-about {
+#page-two {
   background-color: #2072a7;
   height: 40em;
-  padding-top: 10px; }
+  padding-top: 15px; }
 
 .page-projects {
   background-color: #2980b9;
   height: 70em;
-  padding-top: 10px; }
+  padding-top: 15px; }
 
 .page-contact {
   background-color: #3498db;
   color: #ffd700;
   height: 40em;
-  padding-top: 10px; }
+  padding-top: 15px; }
 
 section {
   position: relative;
@@ -86,7 +86,7 @@ section {
 
 .ss-style-doublediagonal {
   z-index: 1;
-  padding-top: 13em;
+  padding-top: 7em;
   background: #2072a7; }
   .ss-style-doublediagonal:before, .ss-style-doublediagonal:after {
     top: 0;
@@ -129,7 +129,7 @@ section {
       color: white; }
 
 .ss-style-halfcircle {
-  padding-top: 7em; }
+  padding-top: 10em; }
   .ss-style-halfcircle:before {
     top: -50px; }
   .ss-style-halfcircle:before, .ss-style-halfcircle:after {
@@ -162,7 +162,8 @@ section {
     .page-contact-container li p {
       color: white;
       display: inline-block;
-      padding-left: 50px; }
+      padding-left: 50px;
+      font-size: 27px; }
 
 .folded_corner {
   position: absolute;
