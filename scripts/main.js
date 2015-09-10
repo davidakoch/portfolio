@@ -22,18 +22,7 @@ $(document).on('ready', function(){
 	});
 
 
-	//this fixes the navigation bar
-	$(window).on('scroll', function(){
-		var topWin = $(window).scrollTop();
-		//console.log(topWin);
-		if(topWin >= 300 && $('.nav-wrapper').css('position') !== 'fixed'){
-			$('.nav-wrapper').hide().fadeIn().css('position', 'fixed')
-			}	else if (topWin < 300){
-					$('.nav-wrapper').css('position', 'static');
-				
-		}
 
-	});
 
 
 

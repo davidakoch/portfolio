@@ -1,5 +1,6 @@
-$page-height: 40em;
-$top-height: 15px;
+$page-height: 45em;
+$top-height: 155px;
+
 
 .page-home {
 	background-color: #3498db;
@@ -9,9 +10,9 @@ $top-height: 15px;
 	
 }
 
-#page-two {
+.page-about {
 	background-color: #2072a7;
-	height: 70em; 
+	height: $page-height;
 	padding-top: $top-height;
 	
 }
@@ -46,11 +47,7 @@ section {
 
 .ss-style-doublediagonal {
 	z-index: 1;
-	padding-top: 7em;
 	background: #2072a7;
-
-
-
 
 	&:before,
 	&:after {
@@ -70,8 +67,6 @@ section {
 		transform: rotate(-3deg);
 		transform-origin: 3% 0;
 	}
-
-
 }
 
 .js_about_me_hover {
@@ -115,7 +110,6 @@ section {
 
 
 .ss-style-halfcircle {
-	padding-top: 10em;
 
 	&:before {
 		 top: -50px;
@@ -135,7 +129,6 @@ section {
 }
 
 .ss-style-triangles {
-	padding-top: 7em;
 
 	&:before {
 		top: -50px;
@@ -150,8 +143,6 @@ section {
 	    -webkit-transform: translateX(-50%) rotate(45deg);
 	    transform: translateX(-50%) rotate(45deg);
 	}
-
-
 }
 
 .page-contact-container{
