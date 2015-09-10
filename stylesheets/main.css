@@ -61,7 +61,7 @@
 
 #page-two {
   background-color: #2072a7;
-  height: 40em;
+  height: 70em;
   padding-top: 15px; }
 
 .page-projects {
@@ -81,8 +81,7 @@ section {
   color: #fff; }
   section:before, section:after {
     position: absolute;
-    content: '';
-    pointer-events: none; }
+    content: ''; }
 
 .ss-style-doublediagonal {
   z-index: 1;
@@ -108,8 +107,6 @@ section {
   margin: 0 auto;
   opacity: .2;
   transition: all 3s; }
-  .js_about_me_hover h1 {
-    margin-left: 20px; }
   .js_about_me_hover img {
     max-width: 200px;
     margin-left: 25px;
@@ -183,6 +180,32 @@ section {
     border-bottom: solid 80px #fff;
     box-shadow: -10px -10px 54px rgba(0, 0, 0, 0.5); }
 
+.page-home-header, .page-about-header,
+.page-projects-header,
+.page-contact-header {
+  float: left;
+  margin-top: 14em;
+  margin-left: 65px;
+  font-size: 20px; }
+
+#page-home-header-bottom, #page-about-header-bottom,
+#page-projects-header-bottom,
+#page-contact-header-bottom {
+  margin-left: 35px;
+  height: 1px;
+  width: 30em;
+  border-top: 2px solid white; }
+
+.page-about-header,
+.page-projects-header,
+.page-contact-header {
+  margin-top: 5px; }
+
+#page-about-header-bottom,
+#page-projects-header-bottom,
+#page-contact-header-bottom {
+  margin-bottom: 10px; }
+
 body {
   margin: 0;
   padding: 0;
@@ -218,26 +241,5 @@ a {
   @media all and (min-width: 760px) {
     .navMenu {
       display: inline-block; } }
-
-.page-home-header, .page-about-header,
-.page-projects-header,
-.page-contact-header {
-  float: left;
-  margin-top: 14em;
-  margin-left: 65px;
-  font-size: 20px; }
-
-#page-home-header-bottom, #page-about-header-bottom,
-#page-projects-header-bottom,
-#page-contact-header-bottom {
-  margin-left: 35px;
-  height: 1px;
-  width: 30em;
-  border-top: 2px solid white; }
-
-.page-about-header,
-.page-projects-header,
-.page-contact-header {
-  margin-top: -105px; }
 
 /*# sourceMappingURL=main.css.map */

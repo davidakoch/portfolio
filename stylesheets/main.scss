@@ -67,35 +67,9 @@ a {
 	}
 }
 
-.page-home-header {
-	float: left; 
-	margin-top: 14em; 
-	margin-left: 65px; 
-	font-size: 20px;
-	
-}
 
-#page-home-header-bottom {
-	margin-left: 35px;
-	height: 1px;
-	width: 30em;
-	border-top: 2px solid white;
-	
 
-}
 
-.page-about-header,
-.page-projects-header,
-.page-contact-header {
-	@extend .page-home-header;
-	margin-top: -105px;
-}
-
-#page-about-header-bottom,
-#page-projects-header-bottom,
-#page-contact-header-bottom {
-	@extend #page-home-header-bottom;
-}
 
 
 

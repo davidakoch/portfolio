@@ -11,7 +11,7 @@ $top-height: 15px;
 
 #page-two {
 	background-color: #2072a7;
-	height: $page-height;
+	height: 70em; 
 	padding-top: $top-height;
 	
 }
@@ -39,7 +39,6 @@ section {
     &:after {
     	position: absolute;
 		content: '';
-		pointer-events: none;
     }
 }
 
@@ -81,10 +80,6 @@ section {
 	opacity: .2; 
 	transition: all 3s;	
 
-
-	h1 {
-		margin-left: 20px; 
-	}
 
 	img {
 		max-width: 200px;
@@ -202,7 +197,38 @@ section {
 	}
 }
 
+.page-home-header {
+	float: left; 
+	margin-top: 14em; 
+	margin-left: 65px; 
+	font-size: 20px;
+	
+}
 
+#page-home-header-bottom {
+	margin-left: 35px;
+	height: 1px;
+	width: 30em;
+	border-top: 2px solid white;
+	
+
+}
+
+.page-about-header,
+.page-projects-header,
+.page-contact-header {
+	@extend .page-home-header;
+	margin-top: 5px;
+
+
+}
+
+#page-about-header-bottom,
+#page-projects-header-bottom,
+#page-contact-header-bottom {
+	@extend #page-home-header-bottom;
+	margin-bottom: 10px; 
+}
 
 
 
