@@ -146,17 +146,29 @@ section {
 }
 
 .page-contact-container{
-	margin: 30px 30px auto;
+	margin: 30px 230px auto;
+
 
 		li{
 			display: block;
 			list-style: none;
+
+			i{
+				color: black;
+
+
+			}
 		
 			p {
 				color: white;
 				display: inline-block;
 				padding-left: 50px; 
 				font-size: 27px; 
+
+				&:hover{
+					color: purple;
+					text-decoration: underline;
+				}
 			}
 		}
 	
