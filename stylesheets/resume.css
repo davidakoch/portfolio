@@ -8,8 +8,27 @@ h1 {
 }
 
 a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover{
+	text-decoration: underline;
 	color: blue;
 }
+
+.header_links{
+	text-align: center; 
+
+}
+
+.header_links p{
+	display: inline-block;
+	padding: 0px 50px;
+	font-size: 30px;
+
+}
+
 
 .resume_pdf{
 	width: 100%;
