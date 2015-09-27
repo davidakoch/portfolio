@@ -7,12 +7,12 @@ $(document).on('ready', function(){
 	});
 
 	//this makes the navMenu reappear after it's been lost
-	$(window).on('resize', function(){
+	/*$(window).on('resize', function(){
 		var w = $(window).width(); 
 		if (w > 760 && $('.navMenu').is(':hidden')){
 			$('.navMenu').removeAttr('style'); 
 		}
-	}); 
+	}); */
 
 
 	//this scrolls slowly to a section of the page
