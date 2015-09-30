@@ -4,7 +4,7 @@
 			@content;
 		}
 	}	@else if $breakpoint == med {
-				@media all and (min-width: 760px){
+				@media all and (min-width: 780px){
 					@content;
 		}
 	}	@else if $breakpoint == large {
