@@ -1,7 +1,20 @@
-@media all and (min-width: 780px) {
-  .portfolio_grid {
-    display: block;
-    margin: 0px 30px auto; } }
+.portfolio_list {
+  display: inline-block;
+  margin-top: 65px;
+  font-size: 30px; }
+  .portfolio_list li {
+    list-style: none;
+    padding-bottom: 10px; }
+  @media all and (min-width: 850px) {
+    .portfolio_list {
+      display: none; } }
+
+.portfolio_grid {
+  display: none; }
+  @media all and (min-width: 850px) {
+    .portfolio_grid {
+      display: block;
+      margin: 0px 30px auto; } }
 
 .portfolio_grid_row {
   overflow: auto;
