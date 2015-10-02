@@ -89,8 +89,8 @@ section {
 		color: black;
 		transition: all 3s;
 		
-		@include breakpoint(med){
-			font-size: 36px; 
+		@include breakpoint(large){
+			font-size: 34px; 
 		}
 
 	}

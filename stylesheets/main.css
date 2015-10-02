@@ -117,9 +117,9 @@ section {
     font-size: 20px;
     color: black;
     transition: all 3s; }
-    @media all and (min-width: 780px) {
+    @media all and (min-width: 850px) {
       .js_about_me_hover p {
-        font-size: 36px; } }
+        font-size: 34px; } }
   .js_about_me_hover:hover {
     opacity: 1; }
     .js_about_me_hover:hover p {
