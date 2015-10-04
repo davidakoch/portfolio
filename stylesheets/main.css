@@ -165,6 +165,21 @@ section {
   -webkit-transform: translateX(-50%) rotate(45deg);
   transform: translateX(-50%) rotate(45deg); }
 
+.page-contact-list {
+  display: inline;
+  font-size: 30px; }
+  .page-contact-list li {
+    list-style: none;
+    padding-bottom: 4px;
+    list-style: none; }
+  .page-contact-list a {
+    text-decoration: none; }
+  .page-contact-list p {
+    color: white; }
+  @media all and (min-width: 850px) {
+    .page-contact-list {
+      display: none; } }
+
 .page-contact-container {
   display: none; }
   @media all and (min-width: 850px) {

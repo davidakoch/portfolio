@@ -151,6 +151,33 @@ section {
 	}
 }
 
+.page-contact-list{
+	display: inline;
+	font-size: 30px; 
+
+		li {
+			list-style: none;
+			padding-bottom: 4px;
+			list-style: none;
+		
+		}
+
+		a{
+			text-decoration: none; 
+		}
+
+		p {
+			color: white;
+
+		}
+
+		@include breakpoint (large){
+			display: none;
+		}
+
+
+}
+
 .page-contact-container{
 	display: none;
 
