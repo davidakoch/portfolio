@@ -5,6 +5,8 @@
   .portfolio_list li {
     list-style: none;
     padding-bottom: 25px; }
+  .portfolio_list a {
+    color: white; }
   @media all and (min-width: 850px) {
     .portfolio_list {
       display: none; } }
@@ -164,20 +166,24 @@ section {
   transform: translateX(-50%) rotate(45deg); }
 
 .page-contact-container {
-  margin: 30px 230px auto; }
-  .page-contact-container li {
-    display: block;
-    list-style: none; }
-    .page-contact-container li i {
-      color: black; }
-    .page-contact-container li p {
-      color: white;
-      display: inline-block;
-      padding-left: 50px;
-      font-size: 27px; }
-      .page-contact-container li p:hover {
-        color: purple;
-        text-decoration: underline; }
+  display: none; }
+  @media all and (min-width: 850px) {
+    .page-contact-container {
+      display: inline;
+      margin: 30px 230px auto; }
+      .page-contact-container li {
+        display: block;
+        list-style: none; }
+        .page-contact-container li i {
+          color: black; }
+        .page-contact-container li p {
+          color: white;
+          display: inline-block;
+          padding-left: 50px;
+          font-size: 27px; }
+          .page-contact-container li p:hover {
+            color: purple;
+            text-decoration: underline; } }
 
 .folded_corner {
   position: absolute;

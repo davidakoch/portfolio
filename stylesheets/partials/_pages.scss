@@ -152,33 +152,40 @@ section {
 }
 
 .page-contact-container{
-	margin: 30px 230px auto;
+	display: none;
+
+		@include breakpoint(large){
+
+			display: inline;
+			margin: 30px 230px auto;
 
 
-		li{
-			display: block;
-			list-style: none;
+				li{
+					display: block;
+					list-style: none;
 
-			i{
-				color: black;
+					i{
+						color: black;
 
 
-			}
-		
-			p {
-				color: white;
-				display: inline-block;
-				padding-left: 50px; 
-				font-size: 27px; 
+					}
+				
+					p {
+						color: white;
+						display: inline-block;
+						padding-left: 50px; 
+						font-size: 27px; 
 
-				&:hover{
-					color: purple;
-					text-decoration: underline;
+						&:hover{
+							color: purple;
+							text-decoration: underline;
+						}
+					}
 				}
-			}
+			}	
 		}
-	
-}
+
+
 
 .folded_corner {
 	position: absolute; 
