@@ -4,7 +4,7 @@
   font-size: 30px; }
   .portfolio_list li {
     list-style: none;
-    padding-bottom: 10px; }
+    padding-bottom: 25px; }
   @media all and (min-width: 850px) {
     .portfolio_list {
       display: none; } }
@@ -80,8 +80,11 @@
 
 .page-projects {
   background-color: #2980b9;
-  height: 70em;
+  height: 35em;
   padding-top: 155px; }
+  @media all and (min-width: 850px) {
+    .page-projects {
+      height: 70em; } }
 
 .page-contact {
   background-color: #3498db;

@@ -19,8 +19,14 @@ $top-height: 155px;
 
 .page-projects {
 	background-color: #2980b9; 
-	height: 70em;
+	height: 35em;
 	padding-top: $top-height;
+
+	@include breakpoint(large){
+		height: 70em; 
+
+	}
+
 
 }
 
