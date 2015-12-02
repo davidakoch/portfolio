@@ -83,15 +83,20 @@ section {
 
 
 	img {
-		max-width: 200px;
-		margin-left: 25px;
-		margin-right: 15px;  
-		float: left;
+		display: none;
+
+		@include breakpoint(med){
+			max-width: 200px;
+			margin-left: 25px;
+			margin-right: 15px;  
+			float: left;
+			display: inline-block;
+		}
 	}
 
 	p {
 		display: inline;
-		font-size: 20px; 
+		font-size: 25px; 
 		color: black;
 		transition: all 3s;
 		
