@@ -141,19 +141,26 @@ section {
 
 .ss-style-triangles {
 
-	&:before {
-		top: -50px;
-   	 	background: #2980b9;
-	}
+	display: none; 
 
-	&:before,
-	&:after {
-		left: 50%;
-	    width: 100px;
-	    height: 100px;
-	    -webkit-transform: translateX(-50%) rotate(45deg);
-	    transform: translateX(-50%) rotate(45deg);
-	}
+	@include breakpoint(med){
+
+		display: block;
+
+		&:before {
+			top: -50px;
+	   	 	background: #2980b9;
+		}
+
+		&:before,
+		&:after {
+			left: 50%;
+		    width: 100px;
+		    height: 100px;
+		    -webkit-transform: translateX(-50%) rotate(45deg);
+		    transform: translateX(-50%) rotate(45deg);
+		}
+	}	
 }
 
 .page-contact-list{
@@ -214,10 +221,10 @@ section {
 						}
 					}
 				}
-			}	
+				
 		}
-
-
+		
+}
 
 .folded_corner {
 
