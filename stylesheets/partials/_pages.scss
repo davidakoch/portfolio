@@ -122,21 +122,26 @@ section {
 
 .ss-style-halfcircle {
 
-	&:before {
-		 top: -50px;
-	}
+	display: none; 
 
-	&:before,
-	&:after {
-	    left: 50%;
-    	z-index: 1;
-   		width: 100px;
-    	height: 100px;
-    	border-radius: 50%;
-    	background: inherit;
-    	-webkit-transform: translateX(-50%);
-    	transform: translateX(-50%);
-    }
+	@include breakpoint(med){
+
+		&:before {
+			 top: -50px;
+		}
+
+		&:before,
+		&:after {
+		    left: 50%;
+	    	z-index: 1;
+	   		width: 100px;
+	    	height: 100px;
+	    	border-radius: 50%;
+	    	background: inherit;
+	    	-webkit-transform: translateX(-50%);
+	    	transform: translateX(-50%);
+	    }
+	}
 }
 
 .ss-style-triangles {
@@ -224,38 +229,6 @@ section {
 				
 		}
 		
-}
-
-.folded_corner {
-
-	display: none;
-	
-	@include breakpoint(med){ 
-		display: inline-block;
-		position: absolute; 
-		background-color: #3498db;
-		width: 160px;
-		height: 160px;
-		bottom: 0;
-		right: 0;
-
-
-
-		&:before,
-		&:after {
-			display: block;
-			position: absolute;
-			content: "";
-		}
-		
-		&:before {
-			border-top: solid 80px  #2072a7;
-	  	    border-right: solid 80px #fff;
-	  		border-left: solid 80px #2072a7;
-	  		border-bottom: solid 80px #fff;
-	  		box-shadow: -10px -10px 54px rgba(0,0,0,.5)
-		}
-	}	
 }
 
 .page-home-header {

@@ -147,17 +147,20 @@ section {
     .js_about_me_hover:hover p {
       color: white; }
 
-.ss-style-halfcircle:before {
-  top: -50px; }
-.ss-style-halfcircle:before, .ss-style-halfcircle:after {
-  left: 50%;
-  z-index: 1;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: inherit;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%); }
+.ss-style-halfcircle {
+  display: none; }
+  @media all and (min-width: 780px) {
+    .ss-style-halfcircle:before {
+      top: -50px; }
+    .ss-style-halfcircle:before, .ss-style-halfcircle:after {
+      left: 50%;
+      z-index: 1;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: inherit;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); } }
 
 .ss-style-triangles {
   display: none; }
@@ -208,28 +211,6 @@ section {
           .page-contact-container li p:hover {
             color: purple;
             text-decoration: underline; } }
-
-.folded_corner {
-  display: none; }
-  @media all and (min-width: 780px) {
-    .folded_corner {
-      display: inline-block;
-      position: absolute;
-      background-color: #3498db;
-      width: 160px;
-      height: 160px;
-      bottom: 0;
-      right: 0; }
-      .folded_corner:before, .folded_corner:after {
-        display: block;
-        position: absolute;
-        content: ""; }
-      .folded_corner:before {
-        border-top: solid 80px  #2072a7;
-        border-right: solid 80px #fff;
-        border-left: solid 80px #2072a7;
-        border-bottom: solid 80px #fff;
-        box-shadow: -10px -10px 54px rgba(0, 0, 0, 0.5); } }
 
 .page-home-header, .page-about-header,
 .page-projects-header,
