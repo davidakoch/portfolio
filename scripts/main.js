@@ -22,6 +22,13 @@ $(document).on('ready', function(){
 	});
 
 
+	//adds underline to nav tags
+	$('.navMenu a').on('click', function(){
+		$('.navMenu a').css('text-decoration', 'none');
+		$(this).css('text-decoration', 'underline');
+	});
+
+
 
 
 

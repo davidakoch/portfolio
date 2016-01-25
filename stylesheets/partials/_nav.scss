@@ -1,25 +1,36 @@
 .nav-wrapper {
-	border-bottom: 1px solid black; 
-	width: 100%;
-	overflow: auto; 
-	background-color: #fffff5;
-	top: 0;
-	z-index: 2;
-	position: fixed;
+
+	display: none; 
+
+	@include breakpoint(med){
+		border-bottom: 1px solid black; 
+		width: 100%;
+		overflow: auto; 
+		background-color: #fffff5;
+		top: 0;
+		z-index: 2;
+		position: fixed;
+		display: block; 
+	}
 
 }
 
 .navMenu {
-	
+
+	display: none;
+	float: left;
+
+	@include breakpoint(med){
+		display: block;
+	}
 
 	li {
-		display: block;
+		
+		display: inline-block;
 		list-style: none; 
 		font-size: 25px; 
-
-		@include breakpoint(med){
-			float: left; 
-		}
+	
+	
 
 
 
@@ -29,11 +40,7 @@
 			text-decoration: none; 
 
 		}
-
-
-
-	}
-
+	}	
 }
 
 .socialIcons {
