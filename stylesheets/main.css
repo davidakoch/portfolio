@@ -76,6 +76,9 @@
     .socialIcons li a {
       padding: 20px; }
 
+.active {
+  text-decoration: underline; }
+
 .page-home {
   background-color: #3498db;
   height: 45em;
@@ -276,7 +279,6 @@ a {
   a:hover {
     color: purple; }
   a:active {
-    color: blue;
     text-decoration: underline; }
 
 /*.is-mobile {
