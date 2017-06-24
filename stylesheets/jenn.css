@@ -27,5 +27,11 @@ h1 {
 
 .issues_page {
 	margin-top: 50px;
-	display: block; 	
+	display: inline-block; 	
+}
+
+.issues_image {
+	width: 70%;
+	border: 1px solid red;
+	float: left;
 }
