@@ -2,6 +2,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 h1 {
@@ -25,12 +26,23 @@ h1 {
 	float: right;
 }
 
-.issues_page {
+.issues_page  {
 	margin-top: 50px;
 	display: inline-block; 	
 }
 
-.issues_image {
+.issues_image  {
+	width: 70%;
+	border: 1px solid red;
+	float: left;
+}
+
+.news_page {
+	margin-top: 50px;
+	display: inline-block; 	
+}
+
+.news_image {
 	width: 70%;
 	border: 1px solid red;
 	float: left;
