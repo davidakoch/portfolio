@@ -10,8 +10,22 @@ h1 {
 }
 
 .front_page {
-	width: 75%;
-	padding-top: 25px; 
-	display: block; 
-	margin: 0 auto;
+	display: inline-block;
+	margin-top: 25px; 
+}
+
+.front_image {
+	width: 70%;
+	border: 1px solid red;
+	float: left;
+}
+
+.front-list {
+	width: 24%;
+	float: right;
+}
+
+.issues_page {
+	margin-top: 20px;
+	display: block; 	
 }
