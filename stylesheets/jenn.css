@@ -27,8 +27,11 @@ h1 {
 }
 
 .issues_page  {
-	margin-top: 50px;
 	display: inline-block; 	
+}
+
+.gif_page {
+	margin-top: 50px;
 }
 
 .issues_image  {
