@@ -3,6 +3,10 @@ var modal = function(state){
 		$('.modal-wrapper').fadeIn(function(){
 			$('body').addClass('modal-on');
 		});
+	} else {
+		$('.modal-wrapper').fadeOut(function(){
+			$('body').removeClass('modal-on');
+		});
 	}
 }
 
