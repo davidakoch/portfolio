@@ -24,7 +24,7 @@ $(document).on('ready', function(){
 	});
 
 	$('.js-modal-close').on('click', function(){
-		modal('close');
+		$('.modal_wrapper').css("display", "none");
 	})
 
 });
