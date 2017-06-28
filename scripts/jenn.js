@@ -14,6 +14,11 @@ $(document).on('ready', function(){
 
 	$('.front_image').on('click', function(){
 		console.log("hello");
+		modal('open');
 	});
+
+	$('.js-modal-close').('click', function(){
+		modal('close');
+	})
 
 });
