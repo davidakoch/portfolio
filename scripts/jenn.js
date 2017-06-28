@@ -1,11 +1,11 @@
 var modal = function(state){
 	if(state === 'open'){
 		$('.modal-wrapper').fadeIn(function(){
-			$('body').addClass('modal-on');
+			$('body').addClass('modal');
 		});
 	} else {
 		$('.modal-wrapper').fadeOut(function(){
-			$('body').removeClass('modal-on');
+			$('body').removeClass('modal');
 		});
 	}
 }
@@ -17,7 +17,7 @@ $(document).on('ready', function(){
 		modal('open');
 	});
 
-	$('.js-modal-close').('click', function(){
+	$('.js-modal-close').on('click', function(){
 		modal('close');
 	})
 
