@@ -10,6 +10,11 @@ h1 {
 	color: red; 
 }
 
+.click{
+	font-weight: bold; 
+	display: inline;
+}
+
 .front_page {
 	display: inline-block;
 	margin-top: 25px; 
@@ -19,6 +24,7 @@ h1 {
 	width: 70%;
 	border: 1px solid red;
 	float: left;
+	cursor: pointer;
 }
 
 .modal_wrapper {
@@ -35,7 +41,7 @@ h1 {
 
 .modal {
 	position: relative;
-	top: 20%;
+	top: 15%;
 	left: 10%;
 	width: 90em;
 	margin: 0 auto;

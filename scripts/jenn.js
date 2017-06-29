@@ -17,7 +17,7 @@ $(document).on('ready', function(){
 		}
 	}*/
 
-	$('.front_image').on('click', function(){
+	$('.front_image, .news_image').on('click', function(){
 		console.log("hello");
 		//modal('open');
 		$('.modal_wrapper').css("display", "block");
