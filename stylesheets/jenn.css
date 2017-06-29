@@ -35,8 +35,9 @@ h1 {
 
 .modal {
 	position: relative;
-	top: 50%;
-	width: 80em;
+	top: 20%;
+	left: 10%;
+	width: 90em;
 	margin: 0 auto;
 }
 
