@@ -12,17 +12,17 @@ $(document).on('ready', function(){
 	$('.issues_image').on('click', function(){
 		console.log("hello");
 		//modal('open');
-		$('.modal_wrapper').css("display", "block");
+		$('.modal_wrapper_issues').css("display", "block");
 	});
 
 	$('.news_image').on('click', function(){
 		console.log("hello");
 		//modal('open');
-		$('.modal_wrapper').css("display", "block");
+		$('.modal_wrapper_news').css("display", "block");
 	});
 
 	$('.js-modal-close').on('click', function(){
-		$('.modal_wrapper').css("display", "none");
+		$('.modal_wrapper, .modal_wrapper_issues, .modal_wrapper_news').css("display", "none");
 	})
 
 });

@@ -27,7 +27,7 @@ h1 {
 	cursor: pointer;
 }
 
-.modal_wrapper {
+.modal_wrapper, .modal_wrapper_issues, .modal_wrapper_news {
 	position: fixed;
 	top: 0;
 	left: 0;
