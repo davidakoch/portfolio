@@ -78,3 +78,25 @@ h1 {
 	float: left;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 890px) {
+	.front-list {
+		float: left;
+	}
+
+	.modal {
+		width: 0em;
+	}
+
+	.modal_wrapper, .modal_wrapper_issues, .modal_wrapper_news  {
+		background-color: transparent; 
+	}
+
+	.modal_header {
+		display: none;
+	}
+
+	.issues_image, .news_image, .front_image {
+		cursor: default;
+	}
+}
